@@ -1,0 +1,16 @@
+.navbarStyle {
+  height: 50px;
+  background-color: white;
+  width: 100%;
+  ul {
+    width: 30%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    li {
+      list-style-type: none;
+      a {
+        text-decoration: none;
+      }
+    }
+  }
+}
